@@ -5,8 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+      Title="Color Buttons App"  Height="450" Width="800" MinHeight="400" MinWidth="800">
+    <Grid Background="Gray">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <WrapPanel>
 
+            <Button Foreground="Navy" Content="Navy" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Blue" Content="Blue" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Aqua" Content="Aqua" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Teal" Content="Teal" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Olive" Content="Olive" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Green" Content="Green" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Lime" Content="Lime" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20" FontSize="18"/>
+            <Button Foreground="Yellow" Content="Yellow" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="Orange" Content="Orange" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="16"/>
+            <Button Foreground="Red" Content="Red" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="Maroon" Content="Maroon" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="16"/>
+            <Button Foreground="Fuchsia" Content="Fuchsia" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="16"/>
+            <Button Foreground="Purple" Content="Purple" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="Black" Content="Black" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="Silver" Content="Silver" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="Gray" Content="Gray" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+            <Button Foreground="White" Content="White" Height="50" Width="60" VerticalAlignment="Top" HorizontalAlignment="Left" Margin=" 20" FontSize="18"/>
+        </WrapPanel>
     </Grid>
 </Window>
